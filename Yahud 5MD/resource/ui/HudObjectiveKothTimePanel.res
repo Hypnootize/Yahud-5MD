@@ -23,26 +23,16 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"30"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"23"
+			"ypos"			"11"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"MediumNumbers18"
-			"fgcolor"			"White"
+			"fgcolor"		"White"
 			"xpos"			"0"
 			"ypos"			"-2"
 			"zpos"			"-1"
@@ -50,26 +40,14 @@
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"10"
-				"ypos_minmode"	"10"
-				"tall"			"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"font"			"MediumNumbers12"
-				"font_minmode"	"MediumNumbers12"
-				"font_lodef"	"MediumNumbers12"
+				"font"		"MediumNumbers14"
 			}
 		}
-        
 	}
 
 	"RedTimer"
@@ -86,26 +64,16 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"50"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"58"
+			"ypos"			"11"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"MediumNumbers18"
-			"fgcolor"			"White"
+			"fgcolor"		"White"
 			"xpos"			"0"
 			"ypos"			"-2"
 			"zpos"			"-1"
@@ -113,24 +81,12 @@
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"10"
-				"ypos_minmode"	"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"font"			"MediumNumbers12"
-				"font_minmode"	"MediumNumbers12"
-				"font_lodef"	"MediumNumbers12"
-			
+				"font"		"MediumNumbers14"
 			}
 		}
 	}
@@ -146,8 +102,8 @@
 		"fillcolor"		"Red"
 		"visible"		"1"
 		"enabled"		"1"
-			
-		if_comp
+		
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -164,8 +120,8 @@
 		"fillcolor"		"Blue"
 		"visible"		"1"
 		"enabled"		"1"
-			
-		if_comp
+		
+		if_match
 		{
 			"visible"	"0"
 		}
