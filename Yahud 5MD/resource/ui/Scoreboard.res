@@ -71,7 +71,7 @@
         "labelText"     "MANN VS MACHINE"
         "textAlignment" "west"
         "xpos"          "c-292" 
-        "ypos"          "c70" 
+        "ypos"          "c20" 
         "zpos"          "15"
         "wide"          "287"
         "tall"          "17"
@@ -166,9 +166,9 @@
 		{
             "fillcolor"		"DarkGray"
 			"xpos"			"c-295"
-			"ypos"			"c87"
+			"ypos"			"c37"
 			"wide"			"590"
-			"tall"			"169"
+			"tall"			"200"
 		}
 	}
     "InfoBG"
@@ -199,10 +199,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTopLine"
-		"xpos"			"c-295"
-		"ypos"			"c85"
+		"xpos"			"c-288"
+		"ypos"			"c35"
 		"zpos"			"14"
-		"wide"			"410"
+		"wide"			"525"
 		"tall"			"2"
 		"fillcolor"		"Red"
 		"autoResize"	"0"
@@ -212,7 +212,7 @@
 
 		if_mvm
 		{
-			"visible"			"1"
+			"visible"	"1"
 		}
 	}
     "MvMBGTop"
@@ -220,7 +220,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTop"
 		"xpos"			"c-295"
-		"ypos"			"c70"
+		"ypos"			"c20"
 		"zpos"			"9"
 		"wide"			"590"
 		"tall"			"17"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"MediumNumbers18"
+		"font"			"NoveMedium18"
 		"labelText"		"%blueteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"east"
@@ -560,36 +560,36 @@
 			"visible"		"0"
 		}
 	}	
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"NoveMedium10"
-			"labelText"		"%mapname%"
-			"textAlignment" 	"center"
-			"xpos"			"c151"
-			"ypos"			"r25"
-			"zpos"			"3"
-			"wide"			"71"
-			"tall"			"11"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"NoveMedium10"
+		"labelText"		"%mapname%"
+		"textAlignment" "center"
+		"xpos"			"c151"
+		"ypos"			"r25"
+		"zpos"			"3"
+		"wide"			"71"
+		"tall"			"11"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
 
-			if_mvm
-			{
-				"font"			"NoveMedium18"
-                "textAlignment" 	"east"
-				"xpos"			"c21"
-                "ypos"			"r368"
-                "zpos"          "15"
-                "wide"			"270"
-                "tall"			"18"
-                "fgcolor"		"White"
-			}	
-		}
+		if_mvm
+		{
+			"font"			"NoveMedium16"
+			"textAlignment" "center"
+			"xpos"			"c-100"
+			"ypos"			"r45"
+			"zpos"          "15"
+			"wide"			"200"
+			"tall"			"18"
+			"fgcolor"		"White"
+		}	
+	}
 	"HorizontalLine"
 	{
 		"ControlName"	"ImagePanel"
