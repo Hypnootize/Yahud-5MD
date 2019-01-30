@@ -7743,10 +7743,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"blog_tabby"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"src_corner_height"		"24"				
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				
+			"draw_corner_height" 	"0"
 		}
 		MainMenuHighlightBorder
 		{
