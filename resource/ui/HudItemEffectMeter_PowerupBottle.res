@@ -22,7 +22,7 @@
 		"zpos"			"-22"
 		"wide"			"80"
 		"tall"			"17"
-		"fillcolor"		"DarkGraySolid"
+		"fillcolor"		"GrayBGSolid"
 		"visible"		"1"
 		"enabled"		"1"
 	}
